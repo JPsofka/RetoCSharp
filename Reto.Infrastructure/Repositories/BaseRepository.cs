@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace Reto.Infrastructure.Repositories
 {
-    public abstract class BaseRepository<T> : IBaseRepository<T> where T : class
+    public class BaseRepository<T> : IBaseRepository<T> where T : class
     {
         public AppDbContext AppDbContext { get; set; }
         protected BaseRepository(AppDbContext appDbContext) 

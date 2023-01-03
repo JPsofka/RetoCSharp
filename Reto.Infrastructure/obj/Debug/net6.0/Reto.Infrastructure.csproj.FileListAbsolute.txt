@@ -1,0 +1,17 @@
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\bin\Debug\net6.0\Reto.Infrastructure.deps.json
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\bin\Debug\net6.0\Reto.Infrastructure.runtimeconfig.json
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\bin\Debug\net6.0\Reto.Infrastructure.dll
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\bin\Debug\net6.0\Reto.Infrastructure.pdb
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\bin\Debug\net6.0\Reto.Domain.dll
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\bin\Debug\net6.0\Reto.Domain.pdb
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\Reto.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\Reto.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\Reto.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\Reto.Infrastructure.AssemblyInfo.cs
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\Reto.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\Reto.Infrastructure.csproj.CopyComplete
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\Reto.Infrastructure.dll
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\refint\Reto.Infrastructure.dll
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\Reto.Infrastructure.pdb
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\Reto.Infrastructure.genruntimeconfig.cache
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Infrastructure\obj\Debug\net6.0\ref\Reto.Infrastructure.dll

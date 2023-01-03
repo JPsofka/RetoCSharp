@@ -1,0 +1,17 @@
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\bin\Debug\net6.0\Reto.Application.deps.json
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\bin\Debug\net6.0\Reto.Application.dll
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\bin\Debug\net6.0\Reto.Application.pdb
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\bin\Debug\net6.0\Reto.Domain.dll
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\bin\Debug\net6.0\Reto.Infrastructure.dll
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\bin\Debug\net6.0\Reto.Domain.pdb
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\bin\Debug\net6.0\Reto.Infrastructure.pdb
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\Reto.Application.csproj.AssemblyReference.cache
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\Reto.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\Reto.Application.AssemblyInfoInputs.cache
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\Reto.Application.AssemblyInfo.cs
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\Reto.Application.csproj.CoreCompileInputs.cache
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\Reto.Application.csproj.CopyComplete
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\Reto.Application.dll
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\refint\Reto.Application.dll
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\Reto.Application.pdb
+C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Application\obj\Debug\net6.0\ref\Reto.Application.dll

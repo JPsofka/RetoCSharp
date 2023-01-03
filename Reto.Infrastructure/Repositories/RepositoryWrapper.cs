@@ -12,8 +12,8 @@ namespace Reto.Infrastructure.Repositories
     {
 
         private AppDbContext _appDbContext;
-        private IProductRepository _productRepository;
-        private IOrderRepository _orderRepository;
+        private IProductRepository? _productRepository;
+        private IOrderRepository? _orderRepository;
 
         public RepositoryWrapper(AppDbContext appDbContext)
         {
@@ -31,8 +31,6 @@ namespace Reto.Infrastructure.Repositories
             }
         }
 
-        public IProductRepository product => throw new NotImplementedException();
-
         public IOrderRepository Order
         {
             get
@@ -44,8 +42,6 @@ namespace Reto.Infrastructure.Repositories
                 return _orderRepository;
             }
         }
-
-        public IOrderRepository repository => throw new NotImplementedException();
 
         public void Save()
         {
