@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace Reto.Domain.Interfaces.Repositories
 {
-    internal interface IRepositoryWrapper
+    public interface IRepositoryWrapper
     {
+        IProductRepository Product { get; }
+        IOrderRepository Order { get; }
+        void Save();
     }
 }
