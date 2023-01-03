@@ -9,10 +9,10 @@ namespace Reto.Domain.Interfaces.Services
 {
     public interface IProductService
     {
-        Task<IEnumerable<Product>> GetProducts();
-        Task<Product> GetProductById(int id);
+        IEnumerable<Product> GetProducts();
+        Product? GetProductById(int id);
         Task<Product> CreateProduct(Product product);
-        Task<Product> UpdateProduct(int id, Product product);
-        Task DeleteProduct(int id);
+        Task<bool> UpdateProduct(int id, Product product);
+        bool DeleteProduct(int id);
     }
 }

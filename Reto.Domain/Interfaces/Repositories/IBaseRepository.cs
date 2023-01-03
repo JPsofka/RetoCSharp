@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Reto.Domain.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
@@ -9,11 +10,11 @@ namespace Reto.Domain.Interfaces.Repositories
 {
     public interface IBaseRepository<T> where T : class
     {
-        IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression);
-        IQueryable<T> GetAll();
-        void Add(T entity);
-        void Update(T entity);
-        void Delete(T entity);
+        T? FindById(int id);
+        IEnumerable<T> GetAll();
+        Task<T> Add(T entity);
+        Task<bool> Update(T entity);
+        Task<bool> Delete(T entity);
 
     }
 }

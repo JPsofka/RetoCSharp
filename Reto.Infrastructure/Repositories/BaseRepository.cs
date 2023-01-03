@@ -18,25 +18,36 @@ namespace Reto.Infrastructure.Repositories
             AppDbContext = appDbContext;
         }
 
-        public IQueryable<T> GetAll()
+        public IEnumerable<T> GetAll()
         {
-            return AppDbContext.Set<T>().AsNoTracking();
+            return AppDbContext.Set<T>().ToList();
         }
-        public IQueryable<T> FindByCondition(Expression<Func<T, bool>> expression)
+        public T? FindById(int id)
         {
-            return AppDbContext.Set<T>().Where(expression).AsNoTracking();
+            return AppDbContext.Set<T>().Find(id);
         }
-        public void Add(T entity)
+        public async Task<T> Add(T entity)
         {
-            AppDbContext.Set<T>().Add(entity);
+            await AppDbContext.Set<T>().AddAsync(entity);
+            await AppDbContext.SaveChangesAsync();
+            return entity;
         }
-        public void Delete(T entity)
+        public async Task<bool> Delete(T entity)
         {
+            if(entity== null)
+            {
+                return false;
+            }
             AppDbContext.Set<T>().Remove(entity);
+            await AppDbContext.SaveChangesAsync();
+            return true;
+
         }
-        public void Update(T entity)
+        public async Task<bool> Update(T entity)
         {
             AppDbContext.Set<T>().Update(entity);
+            await AppDbContext.SaveChangesAsync();
+            return true;
         }
     }
 }
