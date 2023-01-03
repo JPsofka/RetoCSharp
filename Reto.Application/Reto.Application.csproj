@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Reto.Domain\Reto.Domain.csproj" />
+    <ProjectReference Include="..\Reto.Infrastructure\Reto.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

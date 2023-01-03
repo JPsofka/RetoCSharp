@@ -1,12 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.EntityFrameworkCore;
+using Reto.Domain.Entities;
+
 
 namespace Reto.Infrastructure.Data
 {
-    internal class AppDbContext
+    public class AppDbContext : DbContext
     {
+        public DbSet<Product> products { get; set; }
+        public DbSet<Order> orders { get; set; }
+        public AppDbContext(DbContextOptions<AppDbContext> options) : base(options)
+        {
+        }
     }
 }
