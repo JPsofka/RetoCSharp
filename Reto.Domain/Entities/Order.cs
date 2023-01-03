@@ -8,8 +8,12 @@ namespace Reto.Domain.Entities
 {
     public class Order
     {
-        public int Id { get; set; }
+        public int OrderId { get; set; }
         public DateTime Date { get; set; }
+        public string? IdType { get; set; }
+        public int Id { get; set; }
+        public string? ClientName { get; set; }
+
 
     }
 }
