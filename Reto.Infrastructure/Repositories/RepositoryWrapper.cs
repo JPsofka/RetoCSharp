@@ -14,7 +14,7 @@ namespace Reto.Infrastructure.Repositories
         private AppDbContext _appDbContext;
         private IProductRepository? _productRepository;
         private IOrderRepository? _orderRepository;
-
+        private IPurchaseRepository? _purchaseRepository;
         public RepositoryWrapper(AppDbContext appDbContext)
         {
             _appDbContext = appDbContext;
@@ -40,6 +40,18 @@ namespace Reto.Infrastructure.Repositories
                     _orderRepository= new OrderRepository(_appDbContext);
                 }
                 return _orderRepository;
+            }
+        }
+
+        public IPurchaseRepository Purchase
+        {
+            get
+            {
+                if (_purchaseRepository == null)
+                {
+                    _purchaseRepository = new PurchaseRepository(_appDbContext);
+                }
+                return _purchaseRepository;
             }
         }
 

@@ -1,4 +1,5 @@
-﻿using Reto.Domain.Entities;
+﻿using Reto.Domain.Dtos;
+using Reto.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,9 +11,8 @@ namespace Reto.Domain.Interfaces.Services
     public interface IOrderService
     {
         IEnumerable<Order> GetOrders();
-        Order? GetOrderById(int id);
-        Order CreateOrder(Order order);
-        Task<bool> UpdateOrder(int id, Order order);
+        OrderDto? GetOrderById(int id);
+        OrderDto CreateOrder(OrderDto orderDto);
         bool DeleteOrder(int id);
 
 

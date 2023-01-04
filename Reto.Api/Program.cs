@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
 using Reto.Application.ServicesImp;
+using Reto.Domain;
 using Reto.Domain.Interfaces.Repositories;
 using Reto.Domain.Interfaces.Services;
 using Reto.Infrastructure.Data;
@@ -22,7 +23,7 @@ builder.Services.AddScoped(typeof(IRepositoryWrapper), typeof(RepositoryWrapper)
 builder.Services.AddScoped(typeof(IProductService), typeof(ProductService));
 builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
 builder.Services.AddScoped(typeof(IPurchaseService), typeof(PurchaseService));
-
+builder.Services.AddScoped(typeof(Mapper));
 
 builder.Services.AddDbContext<AppDbContext>(options =>
         options.UseSqlServer(builder.Configuration.GetConnectionString("Default"),

@@ -11,7 +11,7 @@ namespace Reto.Infrastructure.Repositories
 {
     public class PurchaseRepository : BaseRepository<Purchase>, IPurchaseRepository
     {
-        protected PurchaseRepository(AppDbContext appDbContext) : base(appDbContext)
+        public PurchaseRepository(AppDbContext appDbContext) : base(appDbContext)
         {
         }
     }

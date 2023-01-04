@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Reto.Domain;
 using Reto.Domain.Dtos;
+using Reto.Domain.Entities;
 using Reto.Domain.Interfaces.Services;
 
 namespace Reto.Api.Controllers
@@ -10,10 +12,12 @@ namespace Reto.Api.Controllers
     public class OrderController : ControllerBase
     {
         private IOrderService _orderService;
+        private Mapper _mapper;
 
-        public OrderController(IOrderService orderService)
+        public OrderController(IOrderService orderService, Mapper mapper)
         {
             _orderService = orderService;
+            _mapper = mapper;
         }
         [HttpGet("{id}")]
         public IActionResult Get(int id)
@@ -24,7 +28,8 @@ namespace Reto.Api.Controllers
         [HttpPost]
         public ActionResult<OrderDto> Create(OrderDto orderDto) 
         {
-            _orderService.CreateOrder()
+
+            _orderService.CreateOrder(orderDto);
             return CreatedAtAction(nameof(Get), new { id = orderDto.OrderId }, orderDto);
         }
     }
