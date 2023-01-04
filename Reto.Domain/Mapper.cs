@@ -17,7 +17,7 @@ namespace Reto.Domain
             orderDto.OrderId = order.OrderId;
             orderDto.Date = order.Date;
             orderDto.IdType = order.IdType;
-            orderDto.Id = order.Id;
+            orderDto.IdClient = order.IdClient;
             orderDto.ClientName = order.ClientName;
             orderDto.Purchases = purchases;
 
@@ -27,11 +27,10 @@ namespace Reto.Domain
         public Order MapToOrder(OrderDto orderDto)
         {
             Order order = new Order();
-            order.OrderId = orderDto.OrderId;
             order.Date = orderDto.Date;
             order.IdType = orderDto.IdType;
-            order.Id = orderDto.Id;
-            order.ClientName = order.ClientName;
+            order.IdClient = orderDto.IdClient;
+            order.ClientName = orderDto.ClientName;
             
             return order;
         }

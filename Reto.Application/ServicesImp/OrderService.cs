@@ -21,20 +21,31 @@ namespace Reto.Application.ServicesImp
             _productService = productService;
         }
 
-        public IEnumerable<Order> GetOrders()
+        public IEnumerable<OrderDto> GetOrders()
         {
-            return _repositoryWrapper.Order.GetAll();
+            List<OrderDto> orderDtos = new List<OrderDto>();
+            List<Order> orders = _repositoryWrapper.Order.GetAll().ToList();
+            foreach (var order in orders) 
+            {
+                List<Purchase> purchases = _purchaseService.GetPurchases().ToList();
+                OrderDto orderDto = new OrderDto();
+                if (order is not null)
+                {
+                    orderDto = _mapper.MapToOrderDto(order, purchases.FindAll(x => x.OrderId == order.OrderId));
+                }
+                orderDtos.Add(orderDto);
+            }
+            return orderDtos;
+
         }
 
         public OrderDto? GetOrderById(int id)
         {
             List<Purchase> purchases = _purchaseService.GetPurchases().ToList();
 
-            
             Order? order = _repositoryWrapper.Order.FindById(id);
-
             OrderDto orderDto = new OrderDto();
-            if (order != null)
+            if (order is not null)
             {
                 orderDto = _mapper.MapToOrderDto(order, purchases.FindAll(x => x.OrderId == id));
             }
@@ -45,19 +56,29 @@ namespace Reto.Application.ServicesImp
         public OrderDto CreateOrder(OrderDto orderDto)
         {   
             List<Purchase> purchases = orderDto.Purchases!;
-
+            Order or = _repositoryWrapper.Order.Add(_mapper.MapToOrder(orderDto));
+            var count = 0;
             foreach (var purchase in purchases)
             {
                 Product? product = _productService.GetProductById(purchase.ProductId);
-                if(product == null && product?.InInventory >= purchase.Quantity && product.Min>= purchase.Quantity 
-                    && product.Max<= purchase.Quantity)
+                if(product is not null && product?.InInventory >= purchase.Quantity && purchase.Quantity >= product.Min 
+                    && purchase.Quantity<= product.Max)
                 {
-                    _repositoryWrapper.Order.Add(_mapper.MapToOrder(orderDto));
-                    purchase.PurchaseId = orderDto.OrderId;
+                    orderDto.Date = DateTime.Now;
+                    orderDto.OrderId = or.OrderId;
+                    purchase.OrderId = or.OrderId;
                     _purchaseService.CreatePurchase(purchase);
+                    count++;
+                    product.InInventory--;
+                    Console.WriteLine(product.InInventory);
+                    _productService.UpdateProduct(purchase.ProductId, product);
                 }
                 
 
+            }
+            if (count != purchases.Count())
+            {
+                DeleteOrder(or.OrderId);
             }
             return orderDto;
 

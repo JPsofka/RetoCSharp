@@ -12,7 +12,7 @@ namespace Reto.Domain.Dtos
         public int OrderId { get; set; }
         public DateTime Date { get; set; }
         public string? IdType { get; set; }
-        public int Id { get; set; }
+        public int IdClient { get; set; }
         public string? ClientName { get; set; }
         public List<Purchase>? Purchases { get; set; }
     }

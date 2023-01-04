@@ -10,7 +10,7 @@ namespace Reto.Domain.Interfaces.Services
 {
     public interface IOrderService
     {
-        IEnumerable<Order> GetOrders();
+        IEnumerable<OrderDto> GetOrders();
         OrderDto? GetOrderById(int id);
         OrderDto CreateOrder(OrderDto orderDto);
         bool DeleteOrder(int id);

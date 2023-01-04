@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Reto.Application.ServicesImp;
 using Reto.Domain;
 using Reto.Domain.Dtos;
 using Reto.Domain.Entities;
@@ -19,10 +20,17 @@ namespace Reto.Api.Controllers
             _orderService = orderService;
             _mapper = mapper;
         }
-        [HttpGet("{id}")]
-        public IActionResult Get(int id)
+
+        [HttpGet]
+        public ActionResult<IEnumerable<OrderDto>> GetAll()
         {
-            return Ok(_orderService.GetOrderById(0));
+            return Ok(_orderService.GetOrders());
+        }
+
+        [HttpGet("{id}")]
+        public ActionResult<OrderDto> Get(int id)
+        {
+            return Ok(_orderService.GetOrderById(id));
         }
 
         [HttpPost]
@@ -31,6 +39,12 @@ namespace Reto.Api.Controllers
 
             _orderService.CreateOrder(orderDto);
             return CreatedAtAction(nameof(Get), new { id = orderDto.OrderId }, orderDto);
+        }
+
+        [HttpDelete("{id}")]
+        public ActionResult<bool> Delete(int id)
+        {
+            return Ok(_orderService.DeleteOrder(id));
         }
     }
 }
