@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Reto.Application.ServicesImp;
 using Reto.Domain.Interfaces.Repositories;
 using Reto.Domain.Interfaces.Services;
 using Reto.Infrastructure.Data;
@@ -16,7 +17,9 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 builder.Services.AddScoped(typeof(IProductRepository), typeof(ProductRepository));
 builder.Services.AddScoped(typeof(IOrderRepository), typeof(OrderRepository));
-
+builder.Services.AddScoped(typeof(IRepositoryWrapper), typeof(RepositoryWrapper));
+builder.Services.AddScoped(typeof(IProductService), typeof(ProductService));
+builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
