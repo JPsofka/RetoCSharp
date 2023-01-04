@@ -29,8 +29,4 @@
     <ProjectReference Include="..\Reto.Infrastructure\Reto.Infrastructure.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="TestServices\" />
-  </ItemGroup>
-
 </Project>
