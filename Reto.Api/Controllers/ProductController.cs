@@ -36,7 +36,7 @@ namespace Reto.Api.Controllers
         }
 
         [HttpPut("{id}")]
-        public ActionResult<bool> Update(int id, [FromBody]Product product) 
+        public ActionResult<bool> Update(int id, Product product) 
         {
             return Ok(_productService.UpdateProduct(id, product));   
         }

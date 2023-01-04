@@ -17,9 +17,11 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddScoped(typeof(IBaseRepository<>), typeof(BaseRepository<>));
 builder.Services.AddScoped(typeof(IProductRepository), typeof(ProductRepository));
 builder.Services.AddScoped(typeof(IOrderRepository), typeof(OrderRepository));
+builder.Services.AddScoped(typeof(IPurchaseRepository), typeof(PurchaseRepository));
 builder.Services.AddScoped(typeof(IRepositoryWrapper), typeof(RepositoryWrapper));
 builder.Services.AddScoped(typeof(IProductService), typeof(ProductService));
 builder.Services.AddScoped(typeof(IOrderService), typeof(OrderService));
+builder.Services.AddScoped(typeof(IPurchaseService), typeof(PurchaseService));
 
 
 builder.Services.AddDbContext<AppDbContext>(options =>
