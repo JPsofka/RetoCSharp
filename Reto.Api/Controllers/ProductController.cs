@@ -17,9 +17,9 @@ namespace Reto.Api.Controllers
         }
 
         [HttpGet]
-        public ActionResult<IEnumerable<Product>> GetAll()
+        public List<Product> GetAll()
         {
-            return Ok(_productService.GetProducts());
+            return _productService.GetProducts().ToList();
         }
 
         [HttpGet("{id}")]

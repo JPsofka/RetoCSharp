@@ -13,12 +13,10 @@ namespace Reto.Api.Controllers
     public class OrderController : ControllerBase
     {
         private IOrderService _orderService;
-        private Mapper _mapper;
 
-        public OrderController(IOrderService orderService, Mapper mapper)
+        public OrderController(IOrderService orderService)
         {
             _orderService = orderService;
-            _mapper = mapper;
         }
 
         [HttpGet]

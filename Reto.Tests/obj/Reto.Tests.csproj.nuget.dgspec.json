@@ -4,14 +4,166 @@
     "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj": {
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj",
-        "projectName": "Reto.Tests",
-        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj",
+        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj",
+        "projectName": "Reto.Api",
+        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj",
         "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\obj\\",
+        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj"
+              },
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj"
+              },
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj",
+        "projectName": "Reto.Application",
+        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj",
+        "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj"
+              },
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj",
+        "projectName": "Reto.Domain",
+        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj",
+        "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,10 +191,163 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj",
+        "projectName": "Reto.Infrastructure",
+        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj",
+        "projectName": "Reto.Tests",
+        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj",
+        "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj"
+              },
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj"
+              },
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj"
+              },
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[17.3.2, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.18.4, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
