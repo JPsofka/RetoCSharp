@@ -26,10 +26,10 @@ namespace Reto.Infrastructure.Repositories
         {
             return AppDbContext.Set<T>().Find(id);
         }
-        public async Task<T> Add(T entity)
+        public T Add(T entity)
         {
-            await AppDbContext.Set<T>().AddAsync(entity);
-            await AppDbContext.SaveChangesAsync();
+            AppDbContext.Set<T>().Add(entity);
+            AppDbContext.SaveChanges();
             return entity;
         }
         public async Task<bool> Delete(T entity)

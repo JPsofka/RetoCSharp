@@ -12,7 +12,7 @@ namespace Reto.Domain.Interfaces.Repositories
     {
         T? FindById(int id);
         IEnumerable<T> GetAll();
-        Task<T> Add(T entity);
+        T Add(T entity);
         Task<bool> Update(T entity);
         Task<bool> Delete(T entity);
 

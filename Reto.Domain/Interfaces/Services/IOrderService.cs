@@ -11,8 +11,10 @@ namespace Reto.Domain.Interfaces.Services
     {
         IEnumerable<Order> GetOrders();
         Order? GetOrderById(int id);
-        Task<Order> CreateOrder(Order order);
+        Order CreateOrder(Order order);
         Task<bool> UpdateOrder(int id, Order order);
         bool DeleteOrder(int id);
+
+
     }
 }

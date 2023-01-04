@@ -11,8 +11,8 @@ namespace Reto.Domain.Interfaces.Services
     {
         IEnumerable<Product> GetProducts();
         Product? GetProductById(int id);
-        Task<Product> CreateProduct(Product product);
-        Task<bool> UpdateProduct(int id, Product product);
+        Product CreateProduct(Product product);
+        bool UpdateProduct(int id, Product product);
         bool DeleteProduct(int id);
     }
 }

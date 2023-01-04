@@ -23,7 +23,7 @@ namespace Reto.Application.ServicesImp
             return _repositoryWrapper.Product.FindById(id);
         }
 
-        public Task<Product> CreateProduct(Product product)
+        public Product CreateProduct(Product product)
         {
             return _repositoryWrapper.Product.Add(product);
         }
@@ -38,9 +38,9 @@ namespace Reto.Application.ServicesImp
             return false;
         }
 
-        public Task<bool> UpdateProduct(int id, Product product)
+        public bool UpdateProduct(int id, Product product)
         {
-            return _repositoryWrapper.Product.Update(product);   
+            return _repositoryWrapper.Product.Update(product).Result;   
         }
     }
 }

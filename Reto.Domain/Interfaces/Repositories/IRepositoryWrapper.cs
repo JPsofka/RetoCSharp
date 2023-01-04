@@ -10,6 +10,7 @@ namespace Reto.Domain.Interfaces.Repositories
     {
         IProductRepository Product { get; }
         IOrderRepository Order { get; }
+        IPurchaseRepository Purchase { get; }
         void Save();
     }
 }

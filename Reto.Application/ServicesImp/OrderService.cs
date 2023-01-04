@@ -27,8 +27,9 @@ namespace Reto.Application.ServicesImp
         {
             return _repositoryWrapper.Order.FindById(id);
         }
-        public Task<Order> CreateOrder(Order order)
-        {
+        public Order CreateOrder(Order order)
+        {   
+
             return _repositoryWrapper.Order.Add(order);
         }
 
