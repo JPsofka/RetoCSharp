@@ -10,3 +10,15 @@ C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Domain\obj\Debug\net6.0\Reto.
 C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Domain\obj\Debug\net6.0\refint\Reto.Domain.dll
 C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Domain\obj\Debug\net6.0\Reto.Domain.pdb
 C:\Users\jesus.portillo\Documents\dotNet\Reto\Reto.Domain\obj\Debug\net6.0\ref\Reto.Domain.dll
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\bin\Debug\net6.0\Reto.Domain.deps.json
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\bin\Debug\net6.0\Reto.Domain.dll
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\bin\Debug\net6.0\Reto.Domain.pdb
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\obj\Debug\net6.0\Reto.Domain.csproj.AssemblyReference.cache
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\obj\Debug\net6.0\Reto.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\obj\Debug\net6.0\Reto.Domain.AssemblyInfoInputs.cache
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\obj\Debug\net6.0\Reto.Domain.AssemblyInfo.cs
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\obj\Debug\net6.0\Reto.Domain.csproj.CoreCompileInputs.cache
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\obj\Debug\net6.0\Reto.Domain.dll
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\obj\Debug\net6.0\refint\Reto.Domain.dll
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\obj\Debug\net6.0\Reto.Domain.pdb
+C:\Users\jesus.portillo\Documents\dotNet\RetoCSharp\Reto.Domain\obj\Debug\net6.0\ref\Reto.Domain.dll

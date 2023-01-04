@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj",
       "projectName": "Reto.Domain",
-      "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj",
+      "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj",
       "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\obj\\",
+      "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -8776,11 +8776,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Tests\\Reto.Tests.csproj",
       "projectName": "Reto.Tests",
-      "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj",
+      "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Tests\\Reto.Tests.csproj",
       "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\obj\\",
+      "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -8797,17 +8797,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj": {
-              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj"
+            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Api\\Reto.Api.csproj": {
+              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Api\\Reto.Api.csproj"
             },
-            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj": {
-              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj"
+            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\Reto.Application.csproj": {
+              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\Reto.Application.csproj"
             },
-            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
-              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj"
+            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj": {
+              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj"
             },
-            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
+            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
             }
           }
         }
@@ -8866,13 +8866,5 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
-  },
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  }
 }

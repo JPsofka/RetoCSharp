@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yN6PqsmltCC6wh5ekygCmJvBOA9FrucpmzxktmOX6cGeTfL1Sc0qxeb57VavGqMLDThMj74GTBVmay5Ji7NnrA==",
+  "dgSpecHash": "73MPCxIoqbas5fw43+Dwfhy6WLWIrJP/rGeazljvi1VJhLds9eO8NybhoxgiWmMiO/XSqw3ZqwvLMTH8YiNJqg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\Reto.Tests.csproj",
+  "projectFilePath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Tests\\Reto.Tests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jesus.portillo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jesus.portillo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
@@ -153,12 +153,5 @@
     "C:\\Users\\jesus.portillo\\.nuget\\packages\\xunit.extensibility.execution\\2.4.2\\xunit.extensibility.execution.2.4.2.nupkg.sha512",
     "C:\\Users\\jesus.portillo\\.nuget\\packages\\xunit.runner.visualstudio\\2.4.5\\xunit.runner.visualstudio.2.4.5.nupkg.sha512"
   ],
-  "logs": [
-    {
-      "code": "Undefined",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Problema al leer el archivo de caché C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Tests\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
-    }
-  ]
+  "logs": []
 }

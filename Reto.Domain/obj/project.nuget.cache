@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0m5lcOxwOGTwxNUnN0JVipCIPX1gWpxI3Z55EWRVXQmGYPyqNdNwTKWxTGZ7QyJ1K8VqH1eiWV1Qt9KmOPcyNg==",
+  "dgSpecHash": "04ScqnUqOsb8DbUIkYjFBI0Cev14X9O1nm0WfgXA35tEGbAf3WH2QZOwJK5rdVbFPPL4MFUlwTmObaq9sC2Zbg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj",
+  "projectFilePath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

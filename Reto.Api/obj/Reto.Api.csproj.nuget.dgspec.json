@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj": {}
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Api\\Reto.Api.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj": {
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Api\\Reto.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj",
+        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Api\\Reto.Api.csproj",
         "projectName": "Reto.Api",
-        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj",
+        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Api\\Reto.Api.csproj",
         "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\obj\\",
+        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Api\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,14 +28,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj": {
-                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj"
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\Reto.Application.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\Reto.Application.csproj"
               },
-              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
-                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj"
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj"
               },
-              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
               }
             }
           }
@@ -94,14 +94,14 @@
         }
       }
     },
-    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj": {
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\Reto.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj",
+        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\Reto.Application.csproj",
         "projectName": "Reto.Application",
-        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj",
+        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\Reto.Application.csproj",
         "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\obj\\",
+        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -118,11 +118,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
-                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj"
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj"
               },
-              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
               }
             }
           }
@@ -156,14 +156,14 @@
         }
       }
     },
-    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj",
         "projectName": "Reto.Domain",
-        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj",
+        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj",
         "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\obj\\",
+        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -211,14 +211,14 @@
         }
       }
     },
-    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
+    "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj",
         "projectName": "Reto.Infrastructure",
-        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -235,8 +235,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
-                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj"
+              "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj": {
+                "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj"
               }
             }
           }

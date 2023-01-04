@@ -35,7 +35,7 @@ namespace Reto.Tests.TestControllers
 
             var res = productController.GetAll();
 
-            Assert.IsType<List<Product>>(res);
+            Assert.IsType<ActionResult<IEnumerable<Product>>>(res);
         }
 
         [Fact]

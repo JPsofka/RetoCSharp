@@ -3264,11 +3264,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj",
+      "projectUniqueName": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\Reto.Application.csproj",
       "projectName": "Reto.Application",
-      "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\Reto.Application.csproj",
+      "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\Reto.Application.csproj",
       "packagesPath": "C:\\Users\\jesus.portillo\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Application\\obj\\",
+      "outputPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\jesus.portillo\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -3285,11 +3285,11 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj": {
-              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Domain\\Reto.Domain.csproj"
+            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj": {
+              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Domain\\Reto.Domain.csproj"
             },
-            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
+            "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Infrastructure\\Reto.Infrastructure.csproj"
             }
           }
         }

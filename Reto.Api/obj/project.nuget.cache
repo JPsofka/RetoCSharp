@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "tQMO+LFWKLtzE9XJLsE63CTnPhMBl8+0gbfSKQbIMEBx+BQS+WSFpvR9U+10LpyJgUDWUQUsVUoOZ7sLG/RSGA==",
+  "dgSpecHash": "faD0qSYMeeuvLkTPrsyAs0B2CIRbwUTXFmgd9gH1MywPuuSGayeBaj4m3kYDltcrnfp4yFDrCIB/56mNukTXmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\Reto\\Reto.Api\\Reto.Api.csproj",
+  "projectFilePath": "C:\\Users\\jesus.portillo\\Documents\\dotNet\\RetoCSharp\\Reto.Api\\Reto.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\jesus.portillo\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\jesus.portillo\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
